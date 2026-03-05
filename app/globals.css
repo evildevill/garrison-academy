@@ -123,4 +123,88 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  /* Custom GAK Theme Variables */
+  :root {
+    --green-dark: #0a5c36;
+    --green-mid: #1a8a52;
+    --green-light: #d4edda;
+    --yellow: #f5c518;
+    --blue-dark: #0d2b6b;
+    --blue-mid: #1a4fa0;
+  }
+
+  .font-serif {
+    font-family: var(--font-playfair), serif;
+  }
+
+  .font-sans {
+    font-family: var(--font-dm-sans), sans-serif;
+  }
+}
+
+/* Custom Utilities */
+@layer utilities {
+  /* Ticker Animation */
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee 35s linear infinite;
+  }
+
+  /* Fade In Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fadeIn {
+    animation: fadeIn 0.4s ease-out;
+  }
+
+  /* Border Width Utilities */
+  .border-3 {
+    border-width: 3px;
+  }
+
+  /* 3D Card Flip Effect */
+  .backface-hidden {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0a5c36;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1a8a52;
 }
