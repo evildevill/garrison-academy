@@ -79,10 +79,11 @@ export default function AboutPage() {
             <div className="relative">
               <div className="relative h-[500px] overflow-hidden rounded-lg shadow-xl">
                 <Image
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUPtDYzoi2LpsaB0MOYzoqWr3SQLZUM8NezA&s"
+                  src="/campus/middle-campus.jpeg"
                   alt="GAK Campus"
                   fill
                   className="object-cover transition-transform duration-700 hover:scale-105"
+                  quality={50}
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 rounded-lg bg-blue-600 p-6 text-center shadow-lg">
@@ -227,22 +228,24 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:gap-6">
             {[
-              "https://scontent.fisb5-1.fna.fbcdn.net/v/t39.30808-6/645747575_122096820885230091_7344120855758286231_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd6889&_nc_eui2=AeGyw56_8FZeEtIb0j9f6Bzta89kZsLw3eprz2RmwvDd6tQvsEErPvXpd6nYj52-i-FbemSvHyVDBaSBtB0Ir1tr&_nc_ohc=yqUCqtd6ewcQ7kNvwHKftJW&_nc_oc=Adk604ej2H6jBa22IegWF3Lx6BLMlkjAC7sdDD5WQoUkAnl6hFbz4nH2Hs5dIHM9qr9V3WsgkoVjpx6naRepc9fF&_nc_zt=23&_nc_ht=scontent.fisb5-1.fna&_nc_gid=yB3YWXEtK4lBVFCHn4I9vg&_nc_ss=8&oh=00_Afw86gvEehWerpmVc01qLZyYzozawFLLF7SvcfBe1Vv1cA&oe=69AB51E0",
-              "https://scontent.fisb5-1.fna.fbcdn.net/v/t39.30808-6/571242231_1199036545615453_1198883309021807956_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeFpo062DkvXSnydTVtn90eGRhI8g7n4umpGEjyDufi6an-D3w3I0pObvjxmZa9Pv6IVmZRGgUGSnNlFSxQq4Ce7&_nc_ohc=ihJKBMDO-xMQ7kNvwEBKpXc&_nc_oc=AdlMO9COYWMJJoatiuQAGTJbbJQE1sjAcxceI84sanwr1zn_Tec4xD9m8QJ4C6UvB8kBavgmeXc7OL9VD397vIy8&_nc_zt=23&_nc_ht=scontent.fisb5-1.fna&_nc_gid=Dd2tUloldMduvQ02SJaAxQ&_nc_ss=8&oh=00_AftGPckTUZ6kWGAMxphGPayAN-HSqjAlzJrndtrErad2Tw&oe=69AA44C5",
-              "https://scontent.fisb5-2.fna.fbcdn.net/v/t39.30808-6/564657558_1187953733390401_9005086009789306466_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeEgm60c47uJ8gMiMwxVVofqJfQ9xVaHOCcl9D3FVoc4J9jc8cmvBoGxrO_q08qzh6ixjpGpqx4cfJ22VRIfxsWK&_nc_ohc=LVpj2C21xNYQ7kNvwF2NyGU&_nc_oc=AdlDOlZTyae4kPTZh77Vpjd11_hik4HEgcx6hTD9UNTf8u_7iVZR375gc0xGT0wNgV0hWmKsIAmZ0ZL0lGdi-Uto&_nc_zt=23&_nc_ht=scontent.fisb5-2.fna&_nc_gid=rAqY0ODJvNdwlSBoFsxYww&_nc_ss=8&oh=00_AfvRoH_ww4KJI_FHf1_yT73aCAwNIBYSFW3k0ZTfKZBnyw&oe=69AA2EF9",
-              "https://scontent.fisb6-2.fna.fbcdn.net/v/t39.30808-6/546453338_1158373363015105_7546858607408825037_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeFqqHl0DizEuCPtHZEiC1MU_rrWfguvn2L-utZ-C6-fYr-aRmvS0pojsYX4aG76uB7T6n_P-R3i52DS4YonrSMT&_nc_ohc=qzjZV6BKJMAQ7kNvwHlRj_4&_nc_oc=AdmPfKGi1P-YhqwFw-uFcdjuGRM_nN82cm5FLbbYZuhXlS4-KrqOgZUz-vmqOoHGiiTj0nJLA7Lv7NZbHM47BNFV&_nc_zt=23&_nc_ht=scontent.fisb6-2.fna&_nc_gid=g8J7k1NbPnIw_ydrlqbNtQ&_nc_ss=8&oh=00_AfsRM4XCKa92KnAQiMA1RTJE-xJzLOVEKSSvEG6_RL2amw&oe=69AA3932",
-              "https://scontent.fisb5-2.fna.fbcdn.net/v/t39.30808-6/558950122_1181935743992200_834310144761887162_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeFWyyhqH75bYQG_3p30cOkN6XYoie1b5G3pdiiJ7VvkbajT0eH7Sn_q6OeTRwGNs1_FiVEl_LeJMVncy-ziE2Su&_nc_ohc=1-AaNsxMjgUQ7kNvwEdcwck&_nc_oc=AdnBtb-9cw4rmNO_gUPofmtZxnJyS-rX2t1PiWQbIdvWwbQ8-7q905dZTAw1m7D31wTW8FIpO0fyaOgZwoC8CUZK&_nc_zt=23&_nc_ht=scontent.fisb5-2.fna&_nc_gid=YZKwfShFZr8Q4I4r3eYBfg&_nc_ss=8&oh=00_AfsysEqot2li270tOVrmDSHijiAWlZNoOzQleplTULEHjg&oe=69AA78DD",
-              "https://scontent.fisb5-1.fna.fbcdn.net/v/t39.30808-6/598814184_1236092361909871_8093136160072890080_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeGOrNKRSoWQDTOksnj9n0WJYJdw84mjVSNgl3DziaNVI5SD3iiUxtlmmloArgPt8J0S2J7rdzOn1i-rlFjpxg21&_nc_ohc=L0xQmTEpN5AQ7kNvwFbTzY2&_nc_oc=AdkkvnVlAsb7RODWbPjtzk8-AFeUdfoA151EAVbbXKf_WIErpQxlT9MLLhwdwttScGZHiWeIfTspUMBlXEPEEzpN&_nc_zt=23&_nc_ht=scontent.fisb5-1.fna&_nc_gid=sayDCcpZ0dpUjWI4cZkbNA&_nc_ss=8&oh=00_AfupThGZHQbPtDR3sGmr_dQCzDwnJZksKnsjUVV4bk1fcQ&oe=69AA49DF",
-            ].map((src, idx) => (
+              { src: "/campus/pre-school.jpeg", alt: "Pre-School Campus" },
+              { src: "/campus/junior-section.jpeg", alt: "Junior Section Campus" },
+              { src: "/campus/middle-campus.jpeg", alt: "Middle Campus" },
+              { src: "/campus/senior-girls.jpeg", alt: "Senior Girls Campus" },
+              { src: "/campus/senior-boys.jpeg", alt: "Senior Boys Campus" },
+              { src: "/campus/college-girls.jpeg", alt: "College Girls Campus" },
+              { src: "/campus/college-boys.jpeg", alt: "College Boys Campus" },
+            ].map((image, idx) => (
               <div
                 key={idx}
                 className="group relative h-64 overflow-hidden rounded-lg bg-blue-50 shadow-md"
               >
                 <Image
-                  src={src}
-                  alt={`Campus Image ${idx + 1}`}
+                  src={image.src}
+                  alt={image.alt}
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  quality={50}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-blue-900/40 to-transparent opacity-0 transition-opacity group-hover:opacity-100"></div>
               </div>
