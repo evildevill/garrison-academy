@@ -142,15 +142,14 @@ export default function CampusesPage() {
           <div className="grid gap-12 overflow-hidden rounded-lg border border-slate-200 bg-slate-50 lg:grid-cols-2">
             {/* Image */}
             <div className="relative min-h-[400px] bg-slate-200 lg:min-h-[520px]">
-              <div className="flex h-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-slate-800 to-blue-900 p-8">
-                <Baby className="h-12 w-12 text-blue-400/20" />
-                <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-400">
-                  Pre-School Campus
-                </span>
-                <div className="rounded-sm border border-blue-500/20 bg-blue-500/10 px-4 py-2 text-[9px] uppercase tracking-wider text-blue-400">
-                  Photo Coming Soon
-                </div>
-              </div>
+              <Image
+                src="/campus/pre-school.jpeg"
+                alt="Pre-School Campus"
+                fill
+                className="object-cover"
+                priority
+                quality={50}
+              />
             </div>
 
             {/* Info */}
@@ -309,15 +308,14 @@ export default function CampusesPage() {
 
             {/* Image */}
             <div className="relative min-h-[400px] bg-slate-200 lg:order-2 lg:min-h-[520px]">
-              <div className="flex h-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-slate-800 to-blue-900 p-8">
-                <Star className="h-12 w-12 text-blue-400/20" />
-                <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-400">
-                  Junior Campus
-                </span>
-                <div className="rounded-sm border border-blue-500/20 bg-blue-500/10 px-4 py-2 text-[9px] uppercase tracking-wider text-blue-400">
-                  Photo Coming Soon
-                </div>
-              </div>
+              <Image
+                src="/campus/junior-section.jpeg"
+                alt="Junior Campus"
+                fill
+                className="object-cover"
+                priority
+                quality={50}
+              />
             </div>
           </div>
         </div>
@@ -342,15 +340,14 @@ export default function CampusesPage() {
           <div className="grid gap-12 overflow-hidden rounded-lg border border-slate-200 bg-slate-50 lg:grid-cols-2">
             {/* Image */}
             <div className="relative min-h-[400px] bg-slate-200 lg:min-h-[520px]">
-              <div className="flex h-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-slate-800 to-blue-900 p-8">
-                <BookOpen className="h-12 w-12 text-blue-400/20" />
-                <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-400">
-                  Middle Campus
-                </span>
-                <div className="rounded-sm border border-blue-500/20 bg-blue-500/10 px-4 py-2 text-[9px] uppercase tracking-wider text-blue-400">
-                  Photo Coming Soon
-                </div>
-              </div>
+              <Image
+                src="/campus/middle-campus.jpeg"
+                alt="Middle Campus"
+                fill
+                className="object-cover"
+                priority
+                quality={50}
+              />
             </div>
 
             {/* Info */}
@@ -424,15 +421,14 @@ export default function CampusesPage() {
             <div className="group bg-white transition-transform hover:-translate-y-1">
               {/* Image */}
               <div className="relative h-80 bg-slate-200">
-                <div className="flex h-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-blue-900 to-blue-700 p-8">
-                  <Venus className="h-10 w-10 text-blue-400/20" />
-                  <span className="text-[9px] font-semibold uppercase tracking-widest text-slate-400">
-                    Senior Girls Campus
-                  </span>
-                  <div className="rounded-sm border border-blue-400/20 bg-blue-400/10 px-4 py-2 text-[9px] uppercase tracking-wider text-blue-300">
-                    Photo Coming Soon
-                  </div>
-                </div>
+                <Image
+                  src="/campus/senior-girls.jpeg"
+                  alt="Senior Girls Campus"
+                  fill
+                  className="object-cover"
+                  priority
+                  quality={50}
+                />
               </div>
 
               {/* Body */}
@@ -492,15 +488,14 @@ export default function CampusesPage() {
             <div className="group bg-white transition-transform hover:-translate-y-1">
               {/* Image */}
               <div className="relative h-80 bg-slate-200">
-                <div className="flex h-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-slate-900 to-slate-700 p-8">
-                  <Mars className="h-10 w-10 text-blue-400/20" />
-                  <span className="text-[9px] font-semibold uppercase tracking-widest text-slate-400">
-                    Senior Boys Campus
-                  </span>
-                  <div className="rounded-sm border border-blue-400/20 bg-blue-400/10 px-4 py-2 text-[9px] uppercase tracking-wider text-blue-300">
-                    Photo Coming Soon
-                  </div>
-                </div>
+                <Image
+                  src="/campus/senior-boys.jpeg"
+                  alt="Senior Boys Campus"
+                  fill
+                  className="object-cover"
+                  priority
+                  quality={50}
+                />
               </div>
 
               {/* Body */}
@@ -580,15 +575,14 @@ export default function CampusesPage() {
             <div className="group bg-white transition-transform hover:-translate-y-1">
               {/* Image */}
               <div className="relative h-80 bg-slate-200">
-                <div className="flex h-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-blue-900 to-blue-700 p-8">
-                  <Venus className="h-10 w-10 text-blue-400/20" />
-                  <span className="text-[9px] font-semibold uppercase tracking-widest text-slate-400">
-                    College Girls Campus
-                  </span>
-                  <div className="rounded-sm border border-blue-400/20 bg-blue-400/10 px-4 py-2 text-[9px] uppercase tracking-wider text-blue-300">
-                    Photo Coming Soon
-                  </div>
-                </div>
+                <Image
+                  src="/campus/college-girls.jpeg"
+                  alt="College Girls Campus"
+                  fill
+                  className="object-cover"
+                  priority
+                  quality={50}
+                />
               </div>
 
               {/* Body */}
@@ -649,15 +643,14 @@ export default function CampusesPage() {
             <div className="group bg-white transition-transform hover:-translate-y-1">
               {/* Image */}
               <div className="relative h-80 bg-slate-200">
-                <div className="flex h-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-slate-900 to-slate-700 p-8">
-                  <Mars className="h-10 w-10 text-blue-400/20" />
-                  <span className="text-[9px] font-semibold uppercase tracking-widest text-slate-400">
-                    College Boys Campus
-                  </span>
-                  <div className="rounded-sm border border-blue-400/20 bg-blue-400/10 px-4 py-2 text-[9px] uppercase tracking-wider text-blue-300">
-                    Photo Coming Soon
-                  </div>
-                </div>
+                <Image
+                  src="/campus/college-boys.jpeg"
+                  alt="College Boys Campus"
+                  fill
+                  className="object-cover"
+                  priority
+                  quality={50}
+                />
               </div>
 
               {/* Body */}
