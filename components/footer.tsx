@@ -16,6 +16,7 @@ export default function Footer() {
     { href: "/scholarship", label: "Scholarship" },
     { href: "/uniform", label: "Uniform" },
     { href: "/dashboard", label: "Dashboard" },
+    { href: "/login", label: "Portal Login" },
     { href: "/feedback", label: "Feedback" },
     { href: "/contact", label: "Contact Us" },
   ]

@@ -24,6 +24,7 @@ const menuItems = [
   { href: "/scholarship", label: "Scholarship" },
   { href: "/uniform", label: "Uniform" },
   { href: "/dashboard", label: "Dashboard" },
+  { href: "/login", label: "Login" },
   { href: "/feedback", label: "Feedback" },
   { href: "/contact", label: "Contact" },
 ]
